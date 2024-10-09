@@ -44,11 +44,7 @@ class MainActivity : AppCompatActivity() {
 //            Selected Kehadiran
             kehadiranSpinner.onItemSelectedListener =
                 object : AdapterView.OnItemSelectedListener {
-                    override fun onItemSelected(
-                        parent: AdapterView<*>?,
-                        view: View?,
-                        position: Int,
-                        id: Long) {
+                    override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                             when (kehadiranList[position]) {
                                 "Hadir tepat waktu" -> {
                                     keteranganEdittext.visibility = View.GONE
