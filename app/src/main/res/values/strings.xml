@@ -17,4 +17,9 @@
         <item>November</item>
         <item>Desember</item>
     </array>
+    <array name="kehadiran">
+        <item>Hadir tepat waktu</item>
+        <item>Hadir terlambat</item>
+        <item>Izin</item>
+    </array>
 </resources>
